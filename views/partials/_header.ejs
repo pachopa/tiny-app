@@ -6,6 +6,18 @@
 <body>
 
 
+
+      <form action="/login" method="post">
+      <label for="POST-login">Put your name here Please >>>  </label>
+      <input id="/login" type="text" name="username">
+      <input type="submit" value="PUSH *">
+      </form>
+
+      <% if(username){ %> <%= username %>
+      <form action = "/logout" method = "post">
+      <input type = "submit" value = "LogOut">
+      <% } %>
+
 </body>
 </html>
 
